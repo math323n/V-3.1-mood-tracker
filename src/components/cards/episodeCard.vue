@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import Emojis from "../atoms/emojis.vue";
+import Emojis from "../misc/emojis.vue";
 export default {
-  name: "EpisodeCard",
+  name: "episodeCard",
   props: {
     title: String,
     description: String,
