@@ -268,5 +268,4 @@ symbol {
 symbol:hover {
   color: yellow;
 }
-
 </style>
