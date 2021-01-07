@@ -1,16 +1,20 @@
 <template>
-  <div class="max-w-md m-auto bg-green-100 ">
-    <add-new></add-new>
+  <div class="max-w-md m-auto bg-green-100 p-5 border container justify-between">
+    <episode-card-list></episode-card-list>
+    <add-button class="ml-80"></add-button>
   </div>
   
 </template>
 
+
 <script>
-import AddNew from "./components/buttons/addNew.vue"
+import AddButton from "./components/buttons/addButton.vue"
+import EpisodeCardList from "./components/cards/episodeCardList.vue"
 export default {
   name: 'App',
   components: {
-    AddNew
+    AddButton,
+    EpisodeCardList
   }
 }
 </script>

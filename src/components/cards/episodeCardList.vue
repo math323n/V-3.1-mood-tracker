@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import EpisodeCard from "../misc/episodeCard.vue";
+import EpisodeCard from "../cards/episodeCard.vue";
 export default {
   name: "episodeCardList",
   components: {
