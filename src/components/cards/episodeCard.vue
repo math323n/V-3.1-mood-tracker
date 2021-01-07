@@ -1,5 +1,5 @@
 <template>
-  <Emojis />
+  <emojis />
 
   <article class="bg-white p-5 rounded mb-5">
     <!-- <svg>
