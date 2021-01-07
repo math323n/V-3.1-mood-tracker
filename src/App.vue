@@ -1,11 +1,10 @@
 <template>
-  <div
-    class="max-w-md m-auto bg-green-100 p-5 border container justify-between"
-  >
+  <div class="max-w-md m-auto bg-green-100 p-5 border container justify-between">
     <episode-card-list v-if="!addingCard"></episode-card-list>
     <add-form v-else></add-form>
-    <add-button class="ml-80" @click="addingCard = !addingCard"></add-button>
+    <add-button class="ml-80" v-if="!addingCard" @click="addingCard = !addingCard"></add-button>
   </div>
+  
 </template>
 
 
@@ -14,6 +13,7 @@
 import AddButton from "./components/buttons/addButton.vue";
 import EpisodeCardList from "./components/cards/episodeCardList.vue";
 import AddForm from "./components/misc/addForm.vue";
+
 export default {
   name: "App",
   components: {
