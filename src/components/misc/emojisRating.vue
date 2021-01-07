@@ -154,7 +154,6 @@
 </div>
 </template>
 
-
 <style scoped>
     .emojis{
         margin-bottom: 10px;
